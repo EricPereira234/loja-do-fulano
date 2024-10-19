@@ -21,6 +21,7 @@ export default function TabLayout() {
                 name="categories"
                 options={{
                     title: 'Categorias',
+                    headerShown: false,
                     tabBarIcon: ({ color }) => <FontAwesome
                         size={28}
                         name="archive"

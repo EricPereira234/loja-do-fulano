@@ -6,7 +6,7 @@ export const getAllPoroducts = ()=>{
 }
 
 
-export const getProductId = (id: number)=>{
+export const getProductById = (id: number)=>{
     return data.products.find(item => item.id === id);
 }
 
